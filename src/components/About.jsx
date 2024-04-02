@@ -1,15 +1,19 @@
 import ProfilePic from "../assets/ProfilePic.jpg";
+import github from "../assets/github.png";
+import mail from "../assets/mail.png";
+import "../styles/About.css";
 
 function About() {
   return (
     <section className="flex flex-col  h-screen ">
       <img
-        className="w-[300px] self-center rounded-full mt-5"
+        className="w-[300px] self-center rounded-full mt-5  "
         src={ProfilePic}
         alt="ZZZ"
       />
       <h1 className="text-3xl m-5">Hello, I&apos;m Maxime !</h1>
-      <h2 className="text-xl m-5">
+
+      <h2 className="text-xl m-5  ">
         web & mobile web developer based in France{" "}
       </h2>
       <p className="mx-[25%] m-5">
@@ -25,13 +29,23 @@ function About() {
         dolorum neque alias facere nemo incidunt iste magnam culpa illum iusto
         veritatis? Cum sequi tempore aliquam.
       </p>
-      <div className="flex-row ">
-        <a className="bg-blue-500 p-2" href="#Contact">
-          Contact
-        </a>{" "}
-        <a className="bg-blue-500 p-2" href="#Projects">
-          My Projects
-        </a>
+      <div className="flex self-center">
+        <div className="hover:animate-bounce">
+          <a
+            className="bg-yellow-500 py-2 px-3 m-2 rounded-3xl  font-bold  "
+            href="#Contact"
+          >
+            <img className="logo pb-1" src={mail} alt="" /> Contact
+          </a>{" "}
+        </div>
+        <div className="hover:animate-bounce">
+          <a
+            className="bg-yellow-500 py-2 px-3 m-2 rounded-3xl  font-bold"
+            href="#Projects"
+          >
+            <img className="logo pb-1" src={github} alt="" /> My Projects
+          </a>
+        </div>
       </div>
     </section>
   );
