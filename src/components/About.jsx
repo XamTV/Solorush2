@@ -7,7 +7,7 @@ function About() {
   return (
     <section className="flex flex-col  h-screen ">
       <img
-        className="w-[300px] self-center rounded-full mt-5  "
+        className="w-[300px] self-center rounded-full mt-5   "
         src={ProfilePic}
         alt="ZZZ"
       />

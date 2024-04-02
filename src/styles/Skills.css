@@ -1,0 +1,48 @@
+.skills-component > h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  scroll-behavior: smooth;
+}
+
+.skill-container {
+  display: flex;
+  font-size: 2rem;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 25%;
+}
+
+.skill-container > article > img {
+  margin: 0 rem;
+  border-radius: 15px;
+  animation: shakeVertical 20s ease-in 0s infinite normal forwards;
+}
+
+@keyframes shakeVertical {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: translateY(-8px);
+  }
+
+  20%,
+  40%,
+  60% {
+    transform: translateY(8px);
+  }
+
+  80% {
+    transform: translateY(6.4px);
+  }
+
+  90% {
+    transform: translateY(-6.4px);
+  }
+}
