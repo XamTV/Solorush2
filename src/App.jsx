@@ -12,6 +12,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
+      <footer>Solorush 2 project - 2024 - Coded by Maxime MAUSSION</footer>
     </>
   );
 }

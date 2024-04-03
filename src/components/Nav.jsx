@@ -9,8 +9,11 @@ function Nav() {
       <a className="hover:text-yellow-500 pt-2" href="#Skills">
         Skills
       </a>
-      <a className="hover:text-yellow-500 w-10 ml-2 pt-1" href="#About">
-        <img src={Logo} alt="" />
+      <a
+        className="hover:text-yellow-500 w-10 ml-2 pt-1"
+        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      >
+        <img src={Logo} alt="Logo" />
       </a>
       <a className="hover:text-yellow-500 pt-2" href="#Projects">
         Projects

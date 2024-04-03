@@ -3,6 +3,9 @@ import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import node from "../assets/node.png";
 import react from "../assets/react.png";
+import visualStudio from "../assets/visualStudio.png";
+import git from "../assets/git.png";
+import mySQL from "../assets/mySQL.png";
 
 const skillsList = [
   {
@@ -34,6 +37,21 @@ const skillsList = [
     name: "React",
     image: react,
     color: "cyan",
+  },
+  {
+    id: 6,
+    name: "VSCode",
+    image: visualStudio,
+  },
+  {
+    id: 7,
+    name: "Git",
+    image: git,
+  },
+  {
+    id: 8,
+    name: "mySQL",
+    image: mySQL,
   },
 ];
 

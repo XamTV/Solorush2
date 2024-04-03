@@ -5,7 +5,7 @@ import "../styles/About.css";
 
 function About() {
   return (
-    <section className="flex flex-col  h-screen ">
+    <section id="Home" className="flex flex-col  h-screen ">
       <img
         className="w-[300px] self-center rounded-full mt-5   "
         src={ProfilePic}

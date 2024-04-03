@@ -1,23 +1,29 @@
+.skills-component {
+  margin-top: 25%;
+}
 .skills-component > h2 {
   font-size: 2rem;
   font-weight: 500;
   padding-bottom: 1rem;
   scroll-behavior: smooth;
+  margin-top: 1rem;
 }
 
 .skill-container {
   display: flex;
   font-size: 2rem;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 25%;
+  gap: 6rem;
   padding: 15rem 0;
+  flex-wrap: wrap;
 }
 
 .skill-container > article > img {
-  margin: 0 rem;
   border-radius: 15px;
   animation: shakeVertical 20s ease-in 0s infinite normal forwards;
+  background: linear-gradient(#001b2e 45%, #adb6c4);
 }
 
 @keyframes shakeVertical {

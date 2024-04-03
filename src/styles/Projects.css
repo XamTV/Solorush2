@@ -1,30 +1,50 @@
 .projects-component {
-  margin-top: 10rem;
+  margin-top: 25%;
 }
 .projects-component > h2 {
   margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
 }
 
 .projects-container {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 10rem;
 }
 
 .projects-container > article {
   background-color: #001b2e;
   align-self: center;
   max-width: 25%;
+  border-radius: 15px;
+  padding: 1rem;
 }
 .projects-container > article:hover {
   animation: zoom-in-zoom-out 1s ease;
 }
 .projects-container > article > p {
   color: white;
+  margin-bottom: 1rem;
 }
 .projects-container > article > img {
   width: 300px;
+  height: 200px;
   margin: auto;
   padding: 1rem 0;
+  border-radius: 30px;
+}
+
+.projects-container > article > a {
+  background-color: rgb(234 179 8);
+  margin: 1rem;
+
+  border-radius: 15px;
+  padding: 0 0.5rem;
+  font-weight: 700;
+  font-size: 1rem;
 }
 
 @keyframes zoom-in-zoom-out {

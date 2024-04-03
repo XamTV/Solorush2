@@ -8,7 +8,7 @@ function Skills() {
       <div className="skill-container">
         {skillsList.map((skill) => (
           <article key={skill.id}>
-            <img className="logo-skills" src={skill.image} alt="" />
+            <img src={skill.image} alt="" />
           </article>
         ))}
       </div>
