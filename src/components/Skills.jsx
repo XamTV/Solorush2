@@ -3,8 +3,8 @@ import skillsList from "../data/data";
 
 function Skills() {
   return (
-    <section className="skills-component">
-      <h2 id="Skills">MY SKILLS</h2>
+    <section id="Skills" className="skills-component">
+      <h2>MY SKILLS</h2>
       <div className="skill-container">
         {skillsList.map((skill) => (
           <article key={skill.id}>

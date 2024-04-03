@@ -1,0 +1,40 @@
+.projects-component {
+  margin-top: 10rem;
+}
+.projects-component > h2 {
+  margin-bottom: 2rem;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects-container > article {
+  background-color: #001b2e;
+  align-self: center;
+  max-width: 25%;
+}
+.projects-container > article:hover {
+  animation: zoom-in-zoom-out 1s ease;
+}
+.projects-container > article > p {
+  color: white;
+}
+.projects-container > article > img {
+  width: 300px;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(0.95, 0.95);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}

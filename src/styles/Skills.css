@@ -11,6 +11,7 @@
   flex-direction: row;
   justify-content: space-between;
   margin: 0 25%;
+  padding: 15rem 0;
 }
 
 .skill-container > article > img {
