@@ -1,0 +1,55 @@
+.skills-component {
+  margin-top: 25%;
+}
+.skills-component > h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  scroll-behavior: smooth;
+  margin-top: 1rem;
+}
+
+.skill-container {
+  display: flex;
+  font-size: 2rem;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 25%;
+  gap: 6rem;
+  padding: 15rem 0;
+  flex-wrap: wrap;
+}
+
+.skill-container > article > img {
+  border-radius: 15px;
+  animation: shakeVertical 20s ease-in 0s infinite normal forwards;
+  background: linear-gradient(#001b2e 45%, #adb6c4);
+}
+
+@keyframes shakeVertical {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70% {
+    transform: translateY(-8px);
+  }
+
+  20%,
+  40%,
+  60% {
+    transform: translateY(8px);
+  }
+
+  80% {
+    transform: translateY(6.4px);
+  }
+
+  90% {
+    transform: translateY(-6.4px);
+  }
+}

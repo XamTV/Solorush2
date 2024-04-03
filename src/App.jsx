@@ -1,10 +1,22 @@
-function App() {
-  return (
-    <section className="AppComponent">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+import Nav from "./components/Nav";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Skills from "./components/Skills";
+import { useState } from "react";
 
-      <p>App Component</p>
-    </section>
+function App() {
+  const [isDarkTheme, setIsDarkTheme] = useState(true);
+
+  return (
+    <>
+      <Nav isDarkTheme={isDarkTheme} setIsDarkTheme={setIsDarkTheme} />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
+      <footer>Solorush 2 project - 2024 - Coded by Maxime MAUSSION</footer>
+    </>
   );
 }
 
