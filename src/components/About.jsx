@@ -5,12 +5,8 @@ import "../styles/About.css";
 
 function About() {
   return (
-    <section className="flex flex-col  h-screen about-container  ">
-      <img
-        className="w-[300px] self-center rounded-full mt-5   "
-        src={ProfilePic}
-        alt="ZZZ"
-      />
+    <section className="about-container">
+      <img className="about-image" src={ProfilePic} alt="ZZZ" />
       <h1 className="text-3xl m-5">Hello, I&apos;m Maxime !</h1>
 
       <h2 className="text-xl m-5  ">

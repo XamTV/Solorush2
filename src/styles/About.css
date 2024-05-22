@@ -3,5 +3,12 @@
 }
 
 .about-container {
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .about-image {
+    width: 300px;
+    align-self: center;
+    border-radius: 50%;
+  }
 }
