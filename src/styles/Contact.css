@@ -1,12 +1,12 @@
 .contact-component {
-  height: 95vh;
-  margin-top: 3rem;
+  margin-top: 15rem;
+  padding-bottom: 1rem;
 }
 .contact-container {
   display: flex;
   width: 33vw;
   margin: auto;
-  margin-top: 10rem;
+  margin-top: 5rem;
   padding: 2rem;
   background-color: #001b2e;
   border-radius: 25px;
