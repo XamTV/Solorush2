@@ -43,7 +43,7 @@
   width: 100%;
   border: none;
   cursor: pointer;
-  background-color: goldenrod;
+  background-color: #adb6c4;
   color: white;
   font-size: 24px;
   padding-top: 22px;
@@ -55,12 +55,12 @@
 
 #button-blue:hover {
   background-color: rgba(0, 0, 0, 0);
-  color: #adb6c4;
-  background: #001b2e;
+  color: white;
+  background: goldenrod;
 }
 
 .submit:hover {
-  color: #001b2e;
+  color: white;
 }
 
 form {
