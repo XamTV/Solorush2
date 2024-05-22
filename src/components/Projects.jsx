@@ -1,30 +1,38 @@
 import myProjects from "../data/dataProject";
+
 import "../styles/Projects.css";
-import StarRating from "./StarRating";
 
 function Projects() {
   return (
-    <section id="Projects" className="projects-component">
-      <h2> MY PROJECTS</h2>
-      <div className="projects-container">
+    <>
+      <h2 id="Projects">My Projects</h2>
+      <section className="projectcard-component">
         {myProjects.map((project) => (
-          <article key={project.id}>
-            <h1>{project.name} </h1>
-            <img className="logo-skills" src={project.image} alt="" />
-            <p>{project.desc} </p>
-            <div className="rating">
-              <StarRating />
-            </div>
-            <a href={project.link} target="_blank">
-              DEMO
-            </a>
-            <a href={project.github} target="_blank">
-              CODE
-            </a>
+          <article className="projectcard-article" key={project.id}>
+            <figure>
+              <img
+                className="project-image"
+                src={project.image}
+                alt="project"
+              />
+            </figure>
+            <figcaption className="projectcard-caption">
+              <h2>{project.name}</h2>
+              <p>{project.desc}</p>
+              <div>
+                <a href={project.github} target="_blank">
+                  Repo Github
+                </a>
+                <a href={project.link} target="_blank">
+                  Démo
+                </a>
+              </div>
+            </figcaption>
           </article>
         ))}
-      </div>
-    </section>
+      </section>
+      <div id="Contact"></div>
+    </>
   );
 }
 

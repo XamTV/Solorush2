@@ -2,8 +2,14 @@ import "../styles/Skills.css";
 import skillsList from "../data/data";
 
 function Skills() {
+  const preventDragHandler = (e) => {
+    e.preventDefault();
+  };
   return (
-    <section id="Skills" className="skills-component">
+    <section
+      className="skills-component"
+      onDragStartCapture={preventDragHandler}
+    >
       <h2>MY SKILLS</h2>
       <div className="skill-container">
         {skillsList.map((skill) => (
@@ -12,6 +18,7 @@ function Skills() {
           </article>
         ))}
       </div>
+      <div id="Projects"></div>
     </section>
   );
 }

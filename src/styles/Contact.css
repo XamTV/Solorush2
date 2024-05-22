@@ -1,9 +1,15 @@
 .contact-component {
-  margin-top: 25%;
+  height: 95vh;
+  margin-top: 3rem;
 }
 .contact-container {
-  margin: 2rem;
   display: flex;
+  width: 33vw;
+  margin: auto;
+  margin-top: 10rem;
+  padding: 2rem;
+  background-color: #001b2e;
+  border-radius: 25px;
 }
 .contact-container > .socials {
   width: 50vw;
@@ -22,7 +28,6 @@
 }
 
 .contact-component > h2 {
-  margin-bottom: 20rem;
   font-size: 2rem;
   font-weight: 500;
   padding-bottom: 1rem;
@@ -38,7 +43,7 @@
   width: 100%;
   border: none;
   cursor: pointer;
-  background-color: #001b2e;
+  background-color: goldenrod;
   color: white;
   font-size: 24px;
   padding-top: 22px;

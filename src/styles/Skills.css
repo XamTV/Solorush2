@@ -1,12 +1,11 @@
 .skills-component {
-  margin-top: 25%;
+  height: 100vh;
 }
 .skills-component > h2 {
   font-size: 2rem;
   font-weight: 500;
   padding-bottom: 1rem;
   scroll-behavior: smooth;
-  margin-top: 1rem;
 }
 
 .skill-container {
@@ -16,7 +15,7 @@
   justify-content: space-around;
   margin: 0 25%;
   gap: 6rem;
-  padding: 15rem 0;
+  padding: 10rem 0;
   flex-wrap: wrap;
 }
 

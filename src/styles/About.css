@@ -1,3 +1,7 @@
 .logo {
   display: initial;
 }
+
+.about-container {
+  height: 100vh;
+}

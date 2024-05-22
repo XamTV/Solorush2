@@ -5,7 +5,7 @@ import "../styles/About.css";
 
 function About() {
   return (
-    <section id="Home" className="flex flex-col  h-screen ">
+    <section className="flex flex-col  h-screen about-container  ">
       <img
         className="w-[300px] self-center rounded-full mt-5   "
         src={ProfilePic}
@@ -47,6 +47,7 @@ function About() {
           </a>
         </div>
       </div>
+      <div id="Skills"></div>
     </section>
   );
 }
