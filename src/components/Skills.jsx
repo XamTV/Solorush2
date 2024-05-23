@@ -13,8 +13,12 @@ function Skills() {
       <h2>MY SKILLS</h2>
       <div className="skill-container">
         {skillsList.map((skill) => (
-          <article key={skill.id}>
-            <img src={skill.image} alt="" />
+          <article className={`skill`} key={skill.id}>
+            <img
+              src={skill.image}
+              alt=""
+              style={{ animationDelay: `${skill.id * 0.5}s` }}
+            />
           </article>
         ))}
       </div>

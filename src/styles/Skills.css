@@ -15,15 +15,13 @@
   justify-content: center;
   width: 75vw;
   margin: auto;
-
   gap: 6rem;
   flex-wrap: wrap;
-}
-
-.skill-container > article > img {
-  border-radius: 15px;
-  animation: shakeVertical 20s ease-in 0s infinite normal forwards;
-  background: linear-gradient(#001b2e 45%, #adb6c4);
+  .skill > img {
+    border-radius: 15px;
+    animation: shakeVertical 20s ease-in infinite normal forwards;
+    background: linear-gradient(#001b2e 45%, #adb6c4);
+  }
 }
 
 @keyframes shakeVertical {

@@ -20,7 +20,7 @@ function Projects() {
               <figcaption className="projectcard-caption">
                 <h2>{project.name}</h2>
                 <p>{project.desc}</p>
-                <div>
+                <div className="links">
                   <a href={project.github} target="_blank">
                     Repo Github
                   </a>
