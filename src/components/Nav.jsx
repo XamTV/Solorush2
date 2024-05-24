@@ -17,7 +17,7 @@ function Nav({ isDarkTheme, setIsDarkTheme }) {
         Projects
       </a>
       <a className="hover:text-yellow-500 pt-2" href="#Contact">
-        Contact
+        Socials
       </a>
       <input
         type="checkbox"

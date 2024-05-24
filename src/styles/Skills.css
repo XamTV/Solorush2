@@ -19,8 +19,9 @@
   flex-wrap: wrap;
   .skill > img {
     border-radius: 15px;
-    animation: shakeVertical 20s ease-in infinite normal forwards;
+    animation: shakeVertical 30s ease-in 0s infinite normal forwards;
     background: linear-gradient(#001b2e 45%, #adb6c4);
+    filter: drop-shadow(10px 7px 10px #adb6c4);
   }
 }
 

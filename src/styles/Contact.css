@@ -115,3 +115,65 @@ textarea {
   line-height: 150%;
   resize: vertical;
 }
+
+/* TEST */
+.mail {
+  --color: #000;
+}
+.github {
+  --color: red;
+}
+.linkedin {
+  --color: blue;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+  background-color: #001b2e;
+  padding: 1rem;
+}
+
+.icon {
+  width: 4rem;
+  height: 4rem;
+
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+.icon:hover > img {
+  scale: 1.2;
+  color: #f1f1f1;
+}
+
+.icon::before {
+  background: var(--color);
+  content: "";
+  position: absolute;
+  width: 130%;
+  height: 130%;
+  left: -110%;
+  top: 80%;
+  transform: rotate(45deg);
+}
+
+.icon:hover:before {
+  animation: slide 0.7s forwards;
+}
+
+@keyframes slide {
+  50% {
+    left: 10%;
+    top: -40%;
+  }
+  100% {
+    left: -15%;
+    top: -15%;
+  }
+}
