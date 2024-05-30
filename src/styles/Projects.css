@@ -17,6 +17,7 @@
 .projectcard-article {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 30vw;
   background-color: #adb6c4;
   margin: 5rem 1.5rem;

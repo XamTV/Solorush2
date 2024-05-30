@@ -11,120 +11,16 @@
   background-color: #001b2e;
   border-radius: 25px;
 }
-.contact-container > .socials {
-  width: 50vw;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-.contact-container > .socials > a {
-  align-self: center;
-}
-
-.contact-container > .socials > h2 {
-  width: 100%;
-  align-self: last baseline;
-  font-weight: 500;
-}
-
-.contact-component > h2 {
-  font-size: 2rem;
-  font-weight: 500;
-  padding-bottom: 1rem;
-}
-.contact-component > .form {
-  display: flex;
-  flex-direction: column;
-}
-
-#button-blue {
-  font-family: "Cabin", sans-serif;
-  font-weight: 400;
-  width: 100%;
-  border: none;
-  cursor: pointer;
-  background-color: #adb6c4;
-  color: white;
-  font-size: 24px;
-  padding-top: 22px;
-  padding-bottom: 22px;
-  margin-top: -4px;
-  font-weight: 700;
-  transition: 0.3s ease;
-}
-
-#button-blue:hover {
-  background-color: rgba(0, 0, 0, 0);
-  color: white;
-  background: goldenrod;
-}
-
-.submit:hover {
-  color: white;
-}
-
-form {
-  font-family: "Cabin", sans-serif;
-  padding: 0;
-  width: 90%;
-  border-radius: 15px;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  width: 50vw;
-}
-
-.feedback-input {
-  color: #000;
-  font-family: "Cabin", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  border-radius: 0;
-  margin-right: 0;
-  line-height: 22px;
-  background-color: none;
-  padding: 13px 13px 13px 13px;
-  margin-bottom: 10px;
-  width: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  border-bottom: 2px solid #adb6c4;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-}
-
-.feedback-input:focus {
-  box-shadow: 0;
-  color: #001b2e;
-  transition: 0.4s ease;
-  outline: none;
-  border-bottom: 2px solid black;
-  padding: 13px 13px 13px 13px;
-}
-
-.focused {
-  color: #001b2e;
-  border: #001b2e solid 3px;
-}
-
-textarea {
-  width: 100%;
-  height: 150px;
-  line-height: 150%;
-  resize: vertical;
-}
 
 /* TEST */
 .mail {
   --color: #000;
 }
 .github {
-  --color: red;
+  --color: #000;
 }
 .linkedin {
-  --color: blue;
+  --color: #0e76a8;
 }
 
 .wrapper {
@@ -137,10 +33,9 @@ textarea {
 }
 
 .icon {
-  width: 4rem;
-  height: 4rem;
-
-  border-radius: 15px;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -148,7 +43,7 @@ textarea {
   position: relative;
 }
 .icon:hover > img {
-  scale: 1.2;
+  scale: 1;
   color: #f1f1f1;
 }
 

@@ -7,7 +7,7 @@ import "../styles/About.css";
 
 function About() {
   const helloOptions = {
-    loop: false,
+    loop: true,
     autoplay: true,
     animationData: Hello,
     rendererSettings: {

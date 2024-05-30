@@ -1,4 +1,5 @@
 import linkedin from "../assets/linkedin50.png";
+import github from "../assets/github50.png";
 import mail from "../assets/mail50.png";
 import "../styles/Contact.css";
 
@@ -9,7 +10,7 @@ function Contact() {
         <img src={linkedin} alt="" />
       </a>
       <a href="#" className="icon github">
-        <img src={linkedin} alt="" />
+        <img src={github} alt="" />
       </a>
       <a href="mailto:maximemaussion30@gmail.com" className="icon mail ">
         <img src={mail} alt="" />
