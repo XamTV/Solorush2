@@ -10,7 +10,7 @@ function Skills() {
       className="skills-component"
       onDragStartCapture={preventDragHandler}
     >
-      <h2>MY SKILLS</h2>
+      <h2>Mes Skills</h2>
       <div className="skill-container">
         {skillsList.map((skill) => (
           <article className={`skill`} key={skill.id}>

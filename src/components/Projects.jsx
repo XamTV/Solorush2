@@ -6,7 +6,7 @@ function Projects() {
   return (
     <>
       <div className="projetcard-container">
-        <h2>My Projects</h2>
+        <h2>Mes projets</h2>
         <section className="projectcard-component">
           {myProjects.map((project) => (
             <article className="projectcard-article" key={project.id}>
