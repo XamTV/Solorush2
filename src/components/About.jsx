@@ -1,33 +1,36 @@
 import ProfilePic from "../assets/ProfilePic.jpg";
 import github from "../assets/github.png";
 import mail from "../assets/mail.png";
+import Lottie from "react-lottie";
+import Hello from "../assets/hello.json";
 import "../styles/About.css";
 
 function About() {
+  const helloOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: Hello,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
   return (
-    <section id="Home" className="flex flex-col  h-screen ">
-      <img
-        className="w-[300px] self-center rounded-full mt-5   "
-        src={ProfilePic}
-        alt="ZZZ"
-      />
-      <h1 className="text-3xl m-5">Hello, I&apos;m Maxime !</h1>
-
-      <h2 className="text-xl m-5  ">
-        web & mobile web developer based in France{" "}
-      </h2>
-      <p className="mx-[25%] m-5">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum sequi
-        nulla aliquam maxime omnis tenetur hic cum? Error eligendi quasi
-        reprehenderit vero, laborum esse blanditiis officia sit, delectus unde
-        quaerat quam nemo culpa, vitae maiores quae laudantium placeat expedita
-        consequatur excepturi? Iure, ullam totam dolore facere maiores cum quas
-        perspiciatis quod aliquid est atque quaerat sequi quis illo tempore
-        laboriosam praesentium? Excepturi doloribus eos, beatae dolorem
-        architecto magnam ut veritatis similique iure rem et maiores. Fuga,
-        aperiam nesciunt? Totam esse provident, consectetur veniam doloremque
-        dolorum neque alias facere nemo incidunt iste magnam culpa illum iusto
-        veritatis? Cum sequi tempore aliquam.
+    <section className="about-container ">
+      <img className="about-image" src={ProfilePic} alt="ZZZ" />
+      <h1 className="text-3xl m-5 font-bold flex items-center	justify-center ">
+        Salut, moi c&apos;est Maxime !{" "}
+        <div>
+          <Lottie options={helloOptions} height={100} width={100} />
+        </div>
+      </h1>{" "}
+      <h2 className="text-xl m-5  ">Développeur web et web Mobile </h2>
+      <p className="mx-[25%] m-10">
+        Je suis actuellement détenteur d&apos;un titre RNCP niveau V (équivalent
+        bac+2) Développeur web et Web Mobile . J&apos;ai également été admis
+        dans la formation Concepteur développeur d&apos;application en
+        partenariat avec la Wild Code School. Je suis désormais à la recherche
+        d&apos;un contrat d&apos;apprentissage d&apos;une durée de 15 mois à
+        compter de septembre 2024.
       </p>
       <div className="flex self-center">
         <div className="hover:animate-bounce">
@@ -47,6 +50,7 @@ function About() {
           </a>
         </div>
       </div>
+      <div id="Skills"></div>
     </section>
   );
 }

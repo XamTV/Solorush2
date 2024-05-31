@@ -2,16 +2,27 @@ import "../styles/Skills.css";
 import skillsList from "../data/data";
 
 function Skills() {
+  const preventDragHandler = (e) => {
+    e.preventDefault();
+  };
   return (
-    <section id="Skills" className="skills-component">
-      <h2>MY SKILLS</h2>
+    <section
+      className="skills-component"
+      onDragStartCapture={preventDragHandler}
+    >
+      <h2>Mes Skills</h2>
       <div className="skill-container">
         {skillsList.map((skill) => (
-          <article key={skill.id}>
-            <img src={skill.image} alt="" />
+          <article className={`skill`} key={skill.id}>
+            <img
+              src={skill.image}
+              alt=""
+              style={{ animationDelay: `${skill.id * 0.5}s` }}
+            />
           </article>
         ))}
       </div>
+      <div id="Projects"></div>
     </section>
   );
 }

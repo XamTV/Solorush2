@@ -1,3 +1,19 @@
 .logo {
   display: initial;
 }
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 15rem;
+  .about-image {
+    width: 300px;
+    align-self: center;
+    border-radius: 50%;
+  }
+}
+
+.caca {
+  margin: 0;
+}
