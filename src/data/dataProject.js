@@ -24,7 +24,7 @@ const myProjects = [
   {
     id: 3,
     name: "PersonaliTREE",
-    desc: "Je vous présente ici mon projet réalisé en 36 h lors d'un hackathon. Nous avions pour thème la nature et grâce à notre ingéniosité, ce site nous a value le prix du meilleur concept.",
+    desc: "Je vous présente ici mon projet réalisé en 36 h avec une équipe de choc  lors d'un hackathon organisé par la Wild Code School . Nous avions pour thème la nature et grâce à notre ingéniosité, ce site nous a value le prix du meilleur concept ",
     image: personalitree,
     link: "NotForNow",
     github: "NotForNow",
