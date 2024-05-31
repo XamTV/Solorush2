@@ -17,12 +17,14 @@ function About() {
   return (
     <section className="about-container ">
       <img className="about-image" src={ProfilePic} alt="ZZZ" />
-      <h1 className="text-3xl m-5 font-bold	 ">
+      <h1 className="text-3xl m-5 font-bold flex items-center	justify-center ">
         Salut, moi c&apos;est Maxime !{" "}
-        <Lottie options={helloOptions} height={100} width={100} />
+        <div>
+          <Lottie options={helloOptions} height={100} width={100} />
+        </div>
       </h1>{" "}
       <h2 className="text-xl m-5  ">Développeur web et web Mobile </h2>
-      <p className="mx-[25%] m-5">
+      <p className="mx-[25%] m-10">
         Je suis actuellement détenteur d&apos;un titre RNCP niveau V (équivalent
         bac+2) Développeur web et Web Mobile . J&apos;ai également été admis
         dans la formation Concepteur développeur d&apos;application en
