@@ -23,15 +23,37 @@
   margin: 5rem 1.5rem;
   padding: 1rem;
   border-radius: 25px;
+}
+.links {
+  margin-top: 2rem;
 
-  .links {
-    margin-top: 2rem;
+  a {
+    background-color: goldenrod;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+  }
+}
 
-    a {
-      background-color: goldenrod;
-      margin: 0.5rem;
-      padding: 0.5rem;
-      border-radius: 10px;
+@media screen and (max-width: 500px) {
+  .projectcard-component {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    width: 100vw;
+    margin: auto;
+  }
+  .projectcard-article {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75vw;
+    align-content: center;
+
+    figure {
+      img {
+        max-width: 70vw;
+        border-radius: 15px;
+      }
     }
   }
 }
