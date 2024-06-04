@@ -6,10 +6,18 @@ import "../styles/Contact.css";
 function Contact() {
   return (
     <section className="wrapper">
-      <a href="#" className="icon linkedin">
+      <a
+        href="https://www.linkedin.com/in/maxime-maussion/"
+        className="icon linkedin"
+        target="_blank"
+      >
         <img src={linkedin} alt="" />
       </a>
-      <a href="#" className="icon github">
+      <a
+        href="https://github.com/XamTV"
+        className="icon github"
+        target="_blank"
+      >
         <img src={github} alt="" />
       </a>
       <a href="mailto:maximemaussion30@gmail.com" className="icon mail ">
