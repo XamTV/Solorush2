@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 function Nav({ isDarkTheme, setIsDarkTheme }) {
   return (
     <nav
-      className={` bg-[#001b2e] scroll-smooth sticky top-0 z-10 flex justify-between mx-[25%] my-5 px-20 py-2 rounded-3xl text-lg font-bold 
+      className={` bg-[#001b2e] scroll-smooth sticky top-0 z-10 flex justify-between mx-[25%] my-5  py-2 rounded-3xl text-lg font-bold 
     ${
       isDarkTheme ? "bg-[#001b2e]" : "border-black bg-[#adb6c4] text-black"
     } max-[920px]:mx-0 flex items-center px-0 justify-evenly`}
