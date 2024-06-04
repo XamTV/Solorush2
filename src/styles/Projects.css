@@ -35,7 +35,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 775px) {
   .projectcard-component {
     display: flex;
     flex-direction: column;
