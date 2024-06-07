@@ -46,7 +46,7 @@ function About() {
             className="bg-yellow-500 py-2 px-3 m-2 rounded-3xl  font-bold"
             href="#Projects"
           >
-            <img className="logo pb-1" src={github} alt="" /> My Projects
+            <img className="logo pb-1" src={github} alt="" /> Mes Projets
           </a>
         </div>
       </div>
