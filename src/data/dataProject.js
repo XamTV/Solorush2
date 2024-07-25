@@ -1,6 +1,7 @@
 import benwild from "../assets/benwild.jpg";
 import movinder from "../assets/movinder.png";
 import personalitree from "../assets/personalitree.png";
+import street from "../assets/street.png";
 
 const myProjects = [
   {
@@ -27,7 +28,16 @@ const myProjects = [
     desc: "Je vous présente ici mon projet réalisé en 36 h avec une équipe de choc  lors d'un hackathon organisé par la Wild Code School . Nous avions pour thème la nature et grâce à notre ingéniosité, ce site nous a value le prix du meilleur concept ",
     image: personalitree,
     link: "NotForNow",
-    github: "NotForNow",
+    github: "https://github.com/XamTV/Protojam-team-B",
+  },
+  {
+    id: 4,
+    name: "Street Art Hunter ",
+    desc: "Je vous présente ici mon projet 3 effecttué à la Wild Code School avec mon equipe. Notre envie était de proposer un site internet permettant de découvrir et/ou d'ajouter des oeuvres de street art dans le monde entier.",
+    image: street,
+    link: "https://npm-code.remote-6.wilders.dev/",
+    github:
+      "https://github.com/WildCodeSchool-2024-02/JS-RemoteFR-Gridception-P3-NPM-Code",
   },
 ];
 export default myProjects;
