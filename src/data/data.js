@@ -6,6 +6,11 @@ import react from "../assets/react.png";
 import visualStudio from "../assets/visualStudio.png";
 import git from "../assets/git.png";
 import mySQL from "../assets/mySQL.png";
+import reactNative from "../assets/reactNative.png";
+import postgre from "../assets/postgre.png";
+import graphQL from "../assets/graphQL.png";
+import docker from "../assets/docker.png";
+import typescript from "../assets/typescript.png";
 
 const skillsList = [
   {
@@ -52,6 +57,31 @@ const skillsList = [
     id: 8,
     name: "mySQL",
     image: mySQL,
+  },
+  {
+    id: 9,
+    name: "PostgreSQL",
+    image: postgre,
+  },
+  {
+    id: 10,
+    name: "GraphQL",
+    image: graphQL,
+  },
+  {
+    id: 11,
+    name: "React Native",
+    image: reactNative,
+  },
+  {
+    id: 12,
+    name: "Docker",
+    image: docker,
+  },
+  {
+    id: 13,
+    name: "TypeScript",
+    image: typescript,
   },
 ];
 
