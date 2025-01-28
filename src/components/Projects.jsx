@@ -24,9 +24,6 @@ function Projects() {
                   <a href={project.github} target="_blank">
                     Repo Github
                   </a>
-                  <a href={project.link} target="_blank">
-                    Démo
-                  </a>
                 </div>
               </figcaption>
             </article>

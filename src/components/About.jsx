@@ -28,9 +28,8 @@ function About() {
         Je suis actuellement détenteur d&apos;un titre RNCP niveau V (équivalent
         bac+2) Développeur web et Web Mobile . J&apos;ai également été admis
         dans la formation Concepteur développeur d&apos;application en
-        partenariat avec la Wild Code School. Je suis désormais à la recherche
-        d&apos;un contrat d&apos;apprentissage d&apos;une durée de 15 mois à
-        compter de septembre 2024.
+        partenariat avec la Wild Code School. Je suis actuellement à la
+        recherche d&apos;un contrat d&apos;apprentissage d&apos;.
       </p>
       <div className="flex self-center">
         <div className="hover:animate-bounce">
