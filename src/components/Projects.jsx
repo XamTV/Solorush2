@@ -18,8 +18,8 @@ function Projects() {
                 />
               </figure>
               <figcaption className="projectcard-caption">
-                <h2>{project.name}</h2>
-                <p>{project.desc}</p>
+                <h2 className="projectTitle">{project.name}</h2>
+                <p className="projectDescription">{project.desc}</p>
                 <div className="links">
                   <a href={project.github} target="_blank">
                     Repo Github
