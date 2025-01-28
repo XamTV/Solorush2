@@ -26,10 +26,10 @@ function About() {
       <h2 className="text-xl m-5  ">Développeur web et web Mobile </h2>
       <p className="mx-[25%] m-10">
         Je suis actuellement détenteur d&apos;un titre RNCP niveau V (équivalent
-        bac+2) Développeur web et Web Mobile . J&apos;ai également été admis
-        dans la formation Concepteur développeur d&apos;application en
-        partenariat avec la Wild Code School. Je suis actuellement à la
-        recherche d&apos;un contrat d&apos;apprentissage.
+        bac+2) Développeur web et mobile . J&apos;ai également été admis dans la
+        formation Concepteur développeur d&apos;application en partenariat avec
+        la Wild Code School. Je suis actuellement à la recherche d&apos;un
+        contrat d&apos;apprentissage.
       </p>
       <div className="flex self-center">
         <div className="hover:animate-bounce">
