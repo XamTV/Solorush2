@@ -33,7 +33,7 @@ const myProjects = [
   {
     id: 4,
     name: "Street Art Hunter ",
-    desc: "Je vous présente ici mon projet 3 effecttué à la Wild Code School avec mon equipe. Notre envie était de proposer un site internet permettant de découvrir et/ou d'ajouter des oeuvres de street art dans le monde entier.",
+    desc: "Je vous présente ici mon projet 3 effectué à la Wild Code School avec mon equipe. Notre envie était de proposer un site internet permettant de découvrir et/ou d'ajouter des oeuvres de street art dans le monde entier.",
     image: street,
     link: "https://npm-code.remote-6.wilders.dev/",
     github:
